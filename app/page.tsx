@@ -4,7 +4,7 @@ export default function ContrepartyHomepage() {
 
       {/* NAVBAR */}
       <header className="fixed top-0 left-0 w-full z-50 px-8 py-8 flex justify-between items-start">
-        
+
         <div className="uppercase tracking-[0.5em]">
           <div className="text-xl font-light">
             CONTREPARTY
@@ -15,7 +15,6 @@ export default function ContrepartyHomepage() {
           </div>
         </div>
 
-        {/* MENU MODIFIÉ */}
         <nav className="flex gap-12 text-sm uppercase tracking-[0.3em]">
 
           <a
@@ -45,22 +44,18 @@ export default function ContrepartyHomepage() {
       {/* HERO */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
 
-        {/* IMAGE FOND */}
         <div
           className="absolute inset-0 bg-cover bg-center opacity-30"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?q=80&w=2070&auto=format&fit=crop')",
+              "url('https://i.pinimg.com/736x/fa/4a/20/fa4a20e2fbfcc47e44831f2741591373.jpg')",
           }}
         />
 
-        {/* OVERLAY */}
         <div className="absolute inset-0 bg-black/70" />
 
-        {/* GRAIN */}
         <div className="absolute inset-0 opacity-[0.04] mix-blend-screen bg-[url('https://grainy-gradients.vercel.app/noise.svg')]" />
 
-        {/* TEXTE COTE */}
         <div className="absolute left-10 top-1/2 -translate-y-1/2 rotate-[-90deg] tracking-[0.5em] text-xs uppercase text-zinc-500">
           Dj Set
         </div>
@@ -69,7 +64,6 @@ export default function ContrepartyHomepage() {
           Collectif
         </div>
 
-        {/* CONTENU */}
         <div className="relative z-10 text-center px-6">
 
           <h1 className="text-5xl md:text-7xl lg:text-[6rem] font-light tracking-[0.35em] uppercase">
@@ -86,13 +80,6 @@ export default function ContrepartyHomepage() {
             Collectif techno & house basé à Paris.
           </p>
 
-          <div className="mt-20">
-            <div className="text-xs uppercase tracking-[0.5em] text-zinc-500">
-              Scroll
-            </div>
-
-            <div className="w-px h-16 bg-zinc-700 mx-auto mt-4" />
-          </div>
         </div>
       </section>
 
@@ -113,10 +100,6 @@ export default function ContrepartyHomepage() {
                 Upcoming
               </h2>
             </div>
-
-            <button className="uppercase tracking-[0.3em] text-sm text-zinc-400 hover:text-white transition">
-              Voir tous les events →
-            </button>
           </div>
 
           <div className="grid md:grid-cols-3 gap-10">
@@ -126,19 +109,19 @@ export default function ContrepartyHomepage() {
                 date: "24 MAI",
                 year: "2025",
                 title: "Contreparty invites",
-                place: "Le Sample, Paris",
+                place: "Le Neuille, Paris",
               },
               {
                 date: "14 JUIN",
                 year: "2025",
                 title: "Contreparty invites",
-                place: "La Station, Paris",
+                place: "La Neuille, Paris",
               },
               {
                 date: "05 JUIL",
                 year: "2025",
-                title: "Summer rave",
-                place: "Lieu secret, Paris",
+                title: "Contreparty invites",
+                place: "Neuille, Paris",
               },
             ].map((event, index) => (
               <div
