@@ -77,7 +77,7 @@ export default function ContrepartyHomepage() {
           <div className="w-16 md:w-20 h-px bg-zinc-700 mx-auto my-8 md:my-10" />
 
           <p className="uppercase tracking-[0.15em] md:tracking-[0.25em] text-zinc-300 text-xs md:text-sm leading-relaxed">
-            Collectif techno & house basé à Paris.
+            Collectif électro basé à Paris .
           </p>
 
         </div>
@@ -106,22 +106,22 @@ export default function ContrepartyHomepage() {
 
             {[
               {
-                date: "24 MAI",
-                year: "2025",
-                title: "Contreparty invites",
-                place: "Le Neuille, Paris",
+                date: "2026",
+                year: "2026",
+                title: "TBA",
+                place: "Paris",
               },
               {
-                date: "14 JUIN",
-                year: "2025",
-                title: "Contreparty invites",
-                place: "La Neuille, Paris",
+                date: "2026",
+                year: "2026",
+                title: "TBA",
+                place: "Paris",
               },
               {
-                date: "05 JUIL",
-                year: "2025",
-                title: "Contreparty invites",
-                place: "Neuille, Paris",
+                date: "2026",
+                year: "2026",
+                title: "TBA",
+                place: "Paris",
               },
             ].map((event, index) => (
               <div
@@ -202,7 +202,7 @@ Conçu par nous, pour tous.
           <div className="mt-10 md:mt-16 flex flex-col gap-5 md:gap-6 text-sm md:text-lg">
 
             <a
-              href="mailto:contact@contrepartyparis.com"
+              href="mailto: contreparty.paris@gmail.com"
               className="hover:opacity-60 transition break-all"
             >
               contact@contrepartyparis.com
