@@ -205,7 +205,7 @@ Conçu par nous, pour tous.
               href="mailto: contreparty.paris@gmail.com"
               className="hover:opacity-60 transition break-all"
             >
-              contact@contrepartyparis.com
+              contreparty.paris@gmail.com
             </a>
 
             <a
