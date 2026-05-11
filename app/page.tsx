@@ -3,19 +3,19 @@ export default function ContrepartyHomepage() {
     <main className="bg-black text-white min-h-screen overflow-x-hidden">
 
       {/* NAVBAR */}
-      <header className="fixed top-0 left-0 w-full z-50 px-4 md:px-8 py-5 md:py-8 flex justify-between items-start">
+      <header className="fixed top-0 left-0 w-full z-50 px-3 sm:px-4 md:px-8 py-4 md:py-8 flex justify-between items-center">
 
-        <div className="uppercase tracking-[0.5em]">
+        <div className="uppercase tracking-[0.35em] md:tracking-[0.5em]">
           <div className="text-sm md:text-xl font-light">
             CONTREPARTY
           </div>
 
-          <div className="text-[10px] md:text-xs tracking-[0.5em] md:tracking-[0.7em] mt-1 md:mt-2 text-zinc-500">
+          <div className="text-[10px] md:text-xs tracking-[0.4em] md:tracking-[0.7em] mt-1 md:mt-2 text-zinc-500">
             PARIS
           </div>
         </div>
 
-        <nav className="flex gap-4 md:gap-12 text-[10px] md:text-sm uppercase tracking-[0.15em] md:tracking-[0.3em]">
+        <nav className="flex gap-3 sm:gap-5 md:gap-12 text-[9px] sm:text-[10px] md:text-sm uppercase tracking-[0.12em] sm:tracking-[0.18em] md:tracking-[0.3em] whitespace-nowrap">
 
           <a
             href="#events"
