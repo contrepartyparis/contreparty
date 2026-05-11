@@ -167,14 +167,19 @@ export default function ContrepartyHomepage() {
           </div>
 
           <div className="text-zinc-300 text-base md:text-xl leading-relaxed">
-            Contreparty est un collectif parisien réunissant des artistes
-            passionnés par la culture underground.
+            C’est à Paris, début 2026 que fleurit dans la dizaine de têtes que compte notre groupe d’amis le projet de créer un collectif à la fois frais, sobre et innovant. Chacun spécialisé dans un domaine précis, nous constituons une véritable armée de savoir-faire qui mène les soirées Contreparty à une explosion de saveurs et de grâce. En plaçant la musique électronique au centre du projet, nous invitons des djs mais pas seulement, chaque soirée est unique à travers les stands qui sont présents sur les lieux de celles-ci. Avec une direction artistique travaillée et pointue, chaque Contreparty fait voyager dans une ambiance différente à chaque fois. 
+De la house de Chicago, en passant par le minimalisme berlinois jusqu’à la tech-house d’Ibiza, c’est sans effort que votre pied battra naturellement au rythme du bpm. 
+
+Conçu par nous, pour tous. 
+
+À très bientôt 
+            
 
             <br />
             <br />
 
-            Notre mission : créer des expériences immersives entre techno,
-            house et esthétique nocturne.
+            
+            
           </div>
         </div>
       </section>
