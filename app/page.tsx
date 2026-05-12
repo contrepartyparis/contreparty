@@ -77,7 +77,7 @@ export default function ContrepartyHomepage() {
           <div className="w-16 md:w-20 h-px bg-zinc-700 mx-auto my-8 md:my-10" />
 
           <p className="uppercase tracking-[0.15em] md:tracking-[0.25em] text-zinc-300 text-xs md:text-sm leading-relaxed">
-            Collectif électro basé à Paris .
+            Collectif électro basé à Paris .
           </p>
 
         </div>
@@ -167,19 +167,22 @@ export default function ContrepartyHomepage() {
           </div>
 
           <div className="text-zinc-300 text-base md:text-xl leading-relaxed">
-            C’est à Paris, début 2026 que fleurit dans la dizaine de têtes que compte notre groupe d’amis le projet de créer un collectif à la fois frais, sobre et innovant. Chacun spécialisé dans un domaine précis, nous constituons une véritable armée de savoir-faire qui mène les soirées Contreparty à une explosion de saveurs et de grâce. En plaçant la musique électronique au centre du projet, nous invitons des djs mais pas seulement, chaque soirée est unique à travers les stands qui sont présents sur les lieux de celles-ci. Avec une direction artistique travaillée et pointue, chaque Contreparty fait voyager dans une ambiance différente à chaque fois. 
-De la house de Chicago, en passant par le minimalisme berlinois jusqu’à la tech-house d’Ibiza, c’est sans effort que votre pied battra naturellement au rythme du bpm. 
-
-Conçu par nous, pour tous. 
-
-À très bientôt 
-            
+            C’est à Paris, début 2026 que fleurit dans la dizaine de têtes que compte notre groupe d’amis le projet de créer un collectif à la fois frais, sobre et innovant. Chacun spécialisé dans un domaine précis, nous constituons une véritable armée de savoir-faire qui mène les soirées Contreparty à une explosion de saveurs et de grâce. En plaçant la musique électronique au centre du projet, nous invitons des djs mais pas seulement, chaque soirée est unique à travers les stands qui sont présents sur les lieux de celles-ci. Avec une direction artistique travaillée et pointue, chaque Contreparty fait voyager dans une ambiance différente à chaque fois.
 
             <br />
             <br />
 
-            
-            
+            De la house de Chicago, en passant par le minimalisme berlinois jusqu’à la tech-house d’Ibiza, c’est sans effort que votre pied battra naturellement au rythme du bpm.
+
+            <br />
+            <br />
+
+            Conçu par nous, pour tous.
+
+            <br />
+            <br />
+
+            À très bientôt
           </div>
         </div>
       </section>
@@ -202,7 +205,7 @@ Conçu par nous, pour tous.
           <div className="mt-10 md:mt-16 flex flex-col gap-5 md:gap-6 text-sm md:text-lg">
 
             <a
-              href="mailto: contreparty.paris@gmail.com"
+              href="mailto:contreparty.paris@gmail.com"
               className="hover:opacity-60 transition break-all"
             >
               contreparty.paris@gmail.com
@@ -215,6 +218,24 @@ Conçu par nous, pour tous.
               className="hover:opacity-60 transition uppercase tracking-[0.2em] md:tracking-[0.3em]"
             >
               Instagram
+            </a>
+
+            <a
+              href="https://www.tiktok.com/@contreparty.paris?_r=1&_t=ZN-96HHr475Yrm"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-60 transition uppercase tracking-[0.2em] md:tracking-[0.3em]"
+            >
+              TikTok
+            </a>
+
+            <a
+              href="https://www.facebook.com/share/1GXFz9tfMK/?mibextid=wwXIfr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-60 transition uppercase tracking-[0.2em] md:tracking-[0.3em]"
+            >
+              Facebook
             </a>
 
           </div>
